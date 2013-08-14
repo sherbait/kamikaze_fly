@@ -1,0 +1,261 @@
+<level width="10016" height="770">
+  <Background>
+    <starrySky id="0" x="0" y="0" width="1800" height="768" />
+    <starrySky id="1" x="1792" y="0" width="1800" height="768" />
+    <lpipe id="2" x="5216" y="544" width="96" height="224" />
+  </Background>
+  <Collision exportMode="GridRectangles">
+    <rect x="0" y="0" w="1" h="24" />
+    <rect x="1" y="23" w="312" h="1" />
+    <rect x="15" y="24" w="15" h="1" />
+    <rect x="40" y="22" w="6" h="1" />
+    <rect x="41" y="20" w="4" h="2" />
+    <rect x="42" y="19" w="2" h="1" />
+    <rect x="103" y="19" w="3" h="4" />
+    <rect x="104" y="18" w="1" h="1" />
+    <rect x="124" y="0" w="1" h="7" />
+    <rect x="124" y="14" w="3" h="1" />
+    <rect x="124" y="15" w="1" h="8" />
+    <rect x="125" y="6" w="2" h="1" />
+    <rect x="126" y="0" w="1" h="6" />
+    <rect x="126" y="15" w="1" h="8" />
+    <rect x="163" y="22" w="2" h="1" />
+    <rect x="164" y="18" w="2" h="1" />
+    <rect x="164" y="19" w="1" h="3" />
+    <rect x="165" y="17" w="1" h="1" />
+    <rect x="180" y="21" w="4" h="1" />
+    <rect x="180" y="22" w="1" h="1" />
+    <rect x="183" y="12" w="3" h="1" />
+    <rect x="183" y="13" w="1" h="8" />
+    <rect x="185" y="13" w="1" h="7" />
+    <rect x="186" y="19" w="3" h="1" />
+    <rect x="188" y="20" w="1" h="3" />
+    <rect x="198" y="22" w="5" h="1" />
+    <rect x="201" y="21" w="3" h="1" />
+    <rect x="203" y="15" w="3" h="1" />
+    <rect x="203" y="16" w="1" h="5" />
+    <rect x="205" y="16" w="1" h="6" />
+    <rect x="206" y="21" w="1" h="1" />
+    <rect x="207" y="22" w="1" h="1" />
+    <rect x="233" y="21" w="3" h="1" />
+    <rect x="233" y="22" w="1" h="1" />
+    <rect x="234" y="20" w="2" h="1" />
+    <rect x="235" y="18" w="2" h="1" />
+    <rect x="235" y="19" w="1" h="1" />
+    <rect x="236" y="16" w="4" h="1" />
+    <rect x="236" y="17" w="1" h="1" />
+    <rect x="237" y="13" w="2" h="3" />
+    <rect x="239" y="17" w="1" h="2" />
+    <rect x="240" y="18" w="1" h="3" />
+    <rect x="241" y="20" w="1" h="2" />
+    <rect x="242" y="21" w="1" h="2" />
+    <rect x="261" y="20" w="4" h="1" />
+    <rect x="261" y="21" w="1" h="2" />
+    <rect x="264" y="16" w="3" h="1" />
+    <rect x="264" y="17" w="1" h="3" />
+    <rect x="266" y="17" w="1" h="5" />
+    <rect x="267" y="21" w="4" h="1" />
+    <rect x="270" y="22" w="4" h="1" />
+    <rect x="276" y="22" w="3" h="1" />
+    <rect x="278" y="18" w="3" h="1" />
+    <rect x="278" y="19" w="1" h="3" />
+    <rect x="280" y="19" w="1" h="3" />
+    <rect x="281" y="22" w="5" h="1" />
+    <rect x="296" y="22" w="3" h="1" />
+    <rect x="298" y="21" w="3" h="1" />
+    <rect x="300" y="16" w="3" h="1" />
+    <rect x="300" y="17" w="1" h="4" />
+    <rect x="302" y="17" w="1" h="2" />
+    <rect x="303" y="18" w="3" h="1" />
+    <rect x="305" y="19" w="1" h="2" />
+    <rect x="306" y="20" w="4" h="1" />
+    <rect x="309" y="21" w="2" h="1" />
+    <rect x="310" y="22" w="3" h="1" />
+    <rect x="312" y="0" w="1" h="22" />
+  </Collision>
+  <Clutter>
+    <dirtbar2 id="0" x="0" y="736" width="320" height="32" />
+    <dirtbar2 id="1" x="320" y="736" width="320" height="32" />
+    <dirtbar2 id="2" x="640" y="736" width="320" height="32" />
+    <dirtbar2 id="3" x="960" y="736" width="320" height="32" />
+    <dirtbar2 id="4" x="1280" y="736" width="320" height="32" />
+    <dirtbar2 id="5" x="1600" y="736" width="320" height="32" />
+    <dirtbar2 id="6" x="1920" y="736" width="320" height="32" />
+    <dirtbar2 id="7" x="2240" y="736" width="320" height="32" />
+    <dirtbar2 id="8" x="2560" y="736" width="320" height="32" />
+    <dirtbar2 id="9" x="2880" y="736" width="320" height="32" />
+    <dirtbar2 id="10" x="3200" y="736" width="320" height="32" />
+    <dirtbar2 id="11" x="3520" y="736" width="320" height="32" />
+    <dirtbar2 id="12" x="3840" y="736" width="320" height="32" />
+    <dirtbar2 id="13" x="4160" y="736" width="320" height="32" />
+    <dirtbar2 id="14" x="4480" y="736" width="320" height="32" />
+    <dirtbar2 id="15" x="4672" y="736" width="320" height="32" />
+    <dirtbar2 id="16" x="4992" y="736" width="320" height="32" />
+    <dirtbar2 id="17" x="5312" y="736" width="320" height="32" />
+    <dirtbar2 id="18" x="5632" y="736" width="320" height="32" />
+    <dirtbar2 id="19" x="5952" y="736" width="320" height="32" />
+    <dirtbar2 id="20" x="6272" y="736" width="320" height="32" />
+    <dirtbar2 id="21" x="6592" y="736" width="320" height="32" />
+    <skull id="34" x="1280" y="608" width="196" height="160" />
+    <scan id="35" x="3296" y="576" width="96" height="196" />
+    <dirtbar1 id="22" x="6912" y="736" width="96" height="32" />
+    <dirtbar1 id="23" x="7008" y="736" width="96" height="32" />
+    <dirtbar1 id="24" x="7040" y="736" width="96" height="32" />
+    <dirtbar2 id="25" x="7136" y="736" width="320" height="32" />
+    <dirtbar2 id="26" x="7456" y="736" width="320" height="32" />
+    <dirtbar2 id="27" x="7776" y="736" width="320" height="32" />
+    <dirtbar2 id="28" x="8096" y="736" width="320" height="32" />
+    <dirtbar1 id="29" x="8416" y="736" width="96" height="32" />
+    <dirtbar2 id="30" x="8512" y="736" width="320" height="32" />
+    <dirtbar2 id="31" x="8832" y="736" width="320" height="32" />
+    <dirtbar2 id="32" x="9152" y="736" width="320" height="32" />
+    <dirtbar2 id="33" x="9472" y="736" width="320" height="32" />
+    <dirtbar1 id="36" x="9792" y="736" width="96" height="32" />
+    <dirtbar1 id="37" x="9888" y="736" width="96" height="32" />
+    <dirtbar1 id="38" x="9920" y="736" width="96" height="32" />
+    <lpipe id="39" x="5216" y="544" width="96" height="224" />
+    <dpod id="40" x="7456" y="416" width="320" height="320" />
+    <dirtbar1 id="41" x="3968" y="704" width="96" height="32" />
+    <dirtbar1 id="42" x="3968" y="608" width="96" height="32" />
+    <dirtbar1 id="43" x="3968" y="448" width="96" height="32" />
+    <dirtbar1 id="44" x="3968" y="480" width="96" height="32" />
+    <dirtbar1 id="45" x="3968" y="512" width="96" height="32" />
+    <dirtbar1 id="46" x="3968" y="544" width="96" height="32" />
+    <dirtbar1 id="47" x="3968" y="576" width="96" height="32" />
+    <dirtbar1 id="48" x="3968" y="640" width="96" height="32" />
+    <dirtbar1 id="49" x="3968" y="672" width="96" height="32" />
+    <dirtbar1 id="50" x="3968" y="192" width="96" height="32" />
+    <dirtbar1 id="51" x="3968" y="160" width="96" height="32" />
+    <dirtbar1 id="52" x="3968" y="128" width="96" height="32" />
+    <dirtbar1 id="53" x="3968" y="96" width="96" height="32" />
+    <dirtbar1 id="54" x="3968" y="32" width="96" height="32" />
+    <dirtbar1 id="55" x="3968" y="64" width="96" height="32" />
+    <dirtbar1 id="56" x="3968" y="0" width="96" height="32" />
+    <dirtbar1 id="57" x="5760" y="704" width="96" height="32" />
+    <dirtbar1 id="58" x="5856" y="704" width="96" height="32" />
+    <dirtbar1 id="59" x="5952" y="704" width="96" height="32" />
+    <dirtbar1 id="60" x="5952" y="672" width="96" height="32" />
+    <dirtbar1 id="61" x="5952" y="608" width="96" height="32" />
+    <dirtbar1 id="62" x="5952" y="640" width="96" height="32" />
+    <dirtbar1 id="63" x="5760" y="672" width="96" height="32" />
+    <dirtbar1 id="64" x="5856" y="672" width="96" height="32" />
+    <dirtbar1 id="65" x="5856" y="640" width="96" height="32" />
+    <dirtbar1 id="66" x="5856" y="608" width="96" height="32" />
+    <dirtbar1 id="67" x="5856" y="576" width="96" height="32" />
+    <dirtbar1 id="68" x="5856" y="544" width="96" height="32" />
+    <dirtbar1 id="69" x="5856" y="512" width="96" height="32" />
+    <dirtbar1 id="70" x="5856" y="480" width="96" height="32" />
+    <dirtbar1 id="71" x="5856" y="448" width="96" height="32" />
+    <dirtbar1 id="72" x="5856" y="416" width="96" height="32" />
+    <dirtbar1 id="73" x="5856" y="384" width="96" height="32" />
+    <dirtbar2 id="74" x="6336" y="704" width="320" height="32" />
+    <dirtbar1 id="75" x="6432" y="672" width="96" height="32" />
+    <dirtbar1 id="76" x="6528" y="672" width="96" height="32" />
+    <dirtbar1 id="77" x="6496" y="640" width="96" height="32" />
+    <dirtbar1 id="78" x="6496" y="608" width="96" height="32" />
+    <dirtbar1 id="79" x="6496" y="576" width="96" height="32" />
+    <dirtbar1 id="80" x="6496" y="544" width="96" height="32" />
+    <dirtbar1 id="81" x="6496" y="512" width="96" height="32" />
+    <dirtbar1 id="82" x="6496" y="480" width="96" height="32" />
+    <dirtbar2 id="83" x="8352" y="704" width="320" height="32" />
+    <dirtbar2 id="84" x="8352" y="672" width="320" height="32" />
+    <dirtbar1 id="85" x="8672" y="704" width="96" height="32" />
+    <dirtbar1 id="86" x="8352" y="640" width="96" height="32" />
+    <dirtbar1 id="87" x="8448" y="640" width="96" height="32" />
+    <dirtbar1 id="88" x="8448" y="608" width="96" height="32" />
+    <dirtbar1 id="89" x="8448" y="576" width="96" height="32" />
+    <dirtbar1 id="90" x="8448" y="544" width="96" height="32" />
+    <dirtbar1 id="91" x="8448" y="512" width="96" height="32" />
+    <dirtbar2 id="92" x="8832" y="704" width="320" height="32" />
+    <dirtbar1 id="93" x="8896" y="672" width="96" height="32" />
+    <dirtbar1 id="94" x="8896" y="640" width="96" height="32" />
+    <dirtbar1 id="95" x="8896" y="608" width="96" height="32" />
+    <dirtbar1 id="96" x="8896" y="576" width="96" height="32" />
+    <dirtbar2 id="97" x="9472" y="704" width="320" height="32" />
+    <dirtbar2 id="98" x="9536" y="672" width="320" height="32" />
+    <dirtbar2 id="99" x="9600" y="640" width="320" height="32" />
+    <dirtbar1 id="100" x="9792" y="704" width="96" height="32" />
+    <dirtbar1 id="101" x="9888" y="704" width="96" height="32" />
+    <dirtbar1 id="102" x="9856" y="672" width="96" height="32" />
+    <dirtbar1 id="103" x="9696" y="608" width="96" height="32" />
+    <dirtbar1 id="104" x="9600" y="608" width="96" height="32" />
+    <dirtbar1 id="105" x="9600" y="576" width="96" height="32" />
+    <dirtbar1 id="106" x="9696" y="576" width="96" height="32" />
+    <dirtbar1 id="107" x="9600" y="544" width="96" height="32" />
+    <dirtbar1 id="108" x="9600" y="512" width="96" height="32" />
+  </Clutter>
+  <Structures>
+    <medium_block id="0" x="2080" y="688" width="32" height="96" angle="0" />
+    <medium_block id="1" x="2080" y="592" width="32" height="96" angle="0" />
+    <medium_block id="2" x="2080" y="528" width="32" height="96" angle="1.570796" />
+    <square_block id="3" x="2048" y="496" width="32" height="32" angle="0" />
+    <square_block id="4" x="2112" y="496" width="32" height="32" angle="0" />
+    <medium_block id="5" x="2080" y="432" width="32" height="96" angle="1.570796" />
+    <square_block id="6" x="2048" y="464" width="32" height="32" angle="0" />
+    <square_block id="7" x="2112" y="464" width="32" height="32" angle="0" />
+    <orb id="8" x="2080" y="496" width="32" height="32" angle="0" goal="True" />
+    <medium_block id="29" x="4480" y="688" width="32" height="96" angle="0" />
+    <long_block id="30" x="4480" y="624" width="32" height="160" angle="1.570796" />
+    <square_block id="31" x="4416" y="592" width="32" height="32" angle="0" />
+    <square_block id="32" x="4544" y="592" width="32" height="32" angle="0" />
+    <orb id="33" x="4480" y="592" width="32" height="32" angle="0" goal="True" />
+    <long_block id="34" x="4480" y="560" width="32" height="160" angle="1.570796" />
+    <medium_block id="67" x="6208" y="688" width="32" height="96" angle="0" />
+    <medium_block id="68" x="6240" y="688" width="32" height="96" angle="0" />
+    <square_block id="69" x="6224" y="624" width="32" height="32" angle="0" />
+    <orb id="70" x="6224" y="592" width="32" height="32" angle="0" goal="True" />
+    <square_block id="93" x="8512" y="496" width="32" height="32" angle="0" />
+    <square_block id="94" x="8512" y="464" width="32" height="32" angle="0" />
+    <square_block id="95" x="8512" y="432" width="32" height="32" angle="0" />
+    <square_block id="96" x="8384" y="624" width="32" height="32" angle="0" />
+    <square_block id="102" x="8928" y="560" width="32" height="32" angle="0" />
+    <square_block id="103" x="8960" y="560" width="32" height="32" angle="0" />
+    <square_block id="104" x="8944" y="528" width="32" height="32" angle="0" />
+    <medium_block id="99" x="9216" y="688" width="32" height="96" angle="0" />
+    <medium_block id="100" x="9312" y="688" width="32" height="96" angle="0" />
+    <square_block id="101" x="4000" y="432" width="32" height="32" angle="0" />
+    <square_block id="105" x="4000" y="400" width="32" height="32" angle="0" />
+    <square_block id="106" x="4032" y="432" width="32" height="32" angle="0" />
+    <square_block id="107" x="5872" y="368" width="32" height="32" angle="0" />
+    <square_block id="108" x="5904" y="368" width="32" height="32" angle="0" />
+    <square_block id="109" x="5872" y="336" width="32" height="32" angle="0" />
+    <square_block id="110" x="6544" y="464" width="32" height="32" angle="0" />
+    <square_block id="111" x="6544" y="432" width="32" height="32" angle="0" />
+    <square_block id="112" x="9216" y="624" width="32" height="32" angle="0" />
+    <medium_block id="113" x="9648" y="464" width="32" height="96" angle="0" />
+    <medium_block id="114" x="9648" y="400" width="32" height="96" angle="1.570796" />
+    <square_block id="115" x="9616" y="368" width="32" height="32" angle="0" />
+    <square_block id="116" x="9680" y="368" width="32" height="32" angle="0" />
+    <medium_block id="117" x="9648" y="336" width="32" height="96" angle="1.570796" />
+    <orb id="118" x="9648" y="368" width="32" height="32" angle="0" goal="True" />
+  </Structures>
+  <Enemies>
+    <mosquito id="1" x="1808" y="176" AI="UpDownBot" />
+    <mosquito id="7" x="1904" y="336" AI="ReverseDiagonalBot" />
+    <venus_fly_trap id="0" x="3952" y="320" AI="StationaryBot" />
+    <venus_fly_trap id="2" x="4384" y="480" AI="StationaryBot" />
+    <venus_fly_trap id="3" x="4320" y="672" AI="StationaryBot" />
+    <venus_fly_trap id="5" x="5760" y="608" AI="StationaryBot" />
+    <venus_fly_trap id="6" x="5824" y="256" AI="StationaryBot" />
+    <venus_fly_trap id="8" x="5984" y="544" AI="StationaryBot" />
+    <venus_fly_trap id="9" x="6320" y="640" AI="StationaryBot" />
+    <venus_fly_trap id="10" x="6448" y="416" AI="StationaryBot" />
+    <venus_fly_trap id="12" x="8576" y="608" AI="StationaryBot" />
+    <venus_fly_trap id="13" x="9040" y="640" AI="StationaryBot" />
+    <venus_fly_trap id="14" x="9568" y="448" AI="StationaryBot" />
+    <mosquito id="15" x="4016" y="384" AI="SurpriseBot" />
+    <mosquito id="16" x="4048" y="416" AI="SurpriseBot" />
+    <mosquito id="17" x="4496" y="416" AI="CirclingBot" />
+    <mosquito id="18" x="4272" y="352" AI="UpDownBot" />
+    <mosquito id="19" x="5920" y="352" AI="SurpriseBot" />
+    <mosquito id="20" x="5888" y="320" AI="SurpriseBot" />
+    <mosquito id="21" x="6560" y="448" AI="SurpriseBot" />
+    <mosquito id="22" x="7392" y="240" AI="KamikazeBot" />
+    <mosquito id="23" x="7680" y="176" AI="KamikazeBot" />
+    <mosquito id="24" x="8528" y="480" AI="SurpriseBot" />
+    <mosquito id="25" x="8976" y="544" AI="SurpriseBot" />
+    <mosquito id="26" x="9392" y="288" AI="DiagonalBot" />
+    <mosquito id="27" x="9472" y="400" AI="UpDownBot" />
+    <venus_fly_trap id="11" x="8336" y="544" AI="StationaryBot" />
+  </Enemies>
+</level>

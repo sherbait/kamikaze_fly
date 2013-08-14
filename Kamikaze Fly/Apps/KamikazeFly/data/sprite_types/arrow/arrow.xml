@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type>
+ <width>32</width>
+ <height>50</height>
+ <images_list>
+  <image_file id="1" file_name="arrow0.png"/>
+  <image_file id="2" file_name="arrow1.png"/>
+  <image_file id="3" file_name="arrow2.png"/>
+  <image_file id="4" file_name="arrow3.png"/>
+  <image_file id="5" file_name="arrow4.png"/>
+  <image_file id="6" file_name="arrow5.png"/>
+  <image_file id="7" file_name="arrow6.png"/>
+  <image_file id="8" file_name="arrow7.png"/>
+  <image_file id="9" file_name="arrow8.png"/>
+  <image_file id="10" file_name="arrow9.png"/>
+  <image_file id="11" file_name="arrow10.png"/>
+  <image_file id="12" file_name="arrow11.png"/>
+  <image_file id="13" file_name="arrow12.png"/>
+ </images_list>
+ <animations_list>
+  <animation_state>
+   <state>BOUNCING</state>
+   <animation_sequence>
+    <pose image_id="1" duration="1"/>
+    <pose image_id="2" duration="1"/>
+    <pose image_id="3" duration="1"/>
+    <pose image_id="4" duration="1"/>
+    <pose image_id="5" duration="1"/>
+    <pose image_id="6" duration="1"/>
+    <pose image_id="7" duration="1"/>
+    <pose image_id="8" duration="1"/>
+    <pose image_id="9" duration="1"/>
+    <pose image_id="10" duration="1"/>
+    <pose image_id="11" duration="1"/>
+    <pose image_id="12" duration="1"/>
+    <pose image_id="13" duration="1"/>
+   </animation_sequence>
+  </animation_state>
+ </animations_list>  
+</sprite_type>

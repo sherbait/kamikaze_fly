@@ -1,0 +1,21 @@
+-----Background-----
+main.mp3			25 Ghosts III by Nine Inch Nails
+level1.mp3			http://www.newgrounds.com/audio/listen/532965
+level2.mp3			14 Ghosts II by Nine Inch Nails
+level3.mp3			
+
+-----Sprites-----
+fly_short.mp3		http://www.junglewalk.com/popup.asp?type=a&AnimalAudioID=148
+fly_long.mp3		http://soundbible.com/396-Fly-Buzzing.html
+bee.mp3				http://soundbible.com/980-Wasp.html
+mosquito.mp3		http://soundbible.com/398-Mosquito-Buzzing.html
+butterfly.mp3		http://soundbible.com/1322-Butterfly.html
+venus.mp3			http://soundbible.com/1948-Slap.html
+
+-----Explosions-----
+blast_small.mp3		http://soundbible.com/538-Blast.html
+blast_medium.mp3	http://soundbible.com/483-Explosion.html
+blast_large.mp3		http://soundbible.com/168-Explosion-And-Debris.html
+
+-----Miscellaneous-----
+button_click.wav	http://soundbible.com/1996-Shotgun-Reload-Old.html

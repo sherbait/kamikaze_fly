@@ -1,0 +1,65 @@
+#include "Player.h"
+#include "src\game\Game.h"
+#include "src\gsm\state\GameStateManager.h"
+#include "src\gui\ScreenGUI.h"
+#include "Box2D\Box2D.h"
+#include "WalkaboutGame.h"
+
+Player::Player()
+{
+	health = 10; lives = 2;hit= false;timer = 0;
+	Game* game = Game::getInstance();
+	ScreenGUI* playerGUI = game->getGUI()->getScreen(GS_GAME_IN_PROGRESS);
+
+	int imageID = game->getGraphics()->getGUITextureManager()->loadTexture(W_HEART_PATH);
+	for (int i = 0; i < 10; i++)
+	{
+		OverlayImage *heart = new OverlayImage(imageID,10 + i*30,10,0,255,26,26);
+		healthImages[i] = heart;
+		playerGUI->addOverlayImage(heart);
+	}
+}
+
+void Player::update()
+{
+	float vX = getPhysicalProperties()->rigidBody->GetLinearVelocity().x;
+	float vY = getPhysicalProperties()->rigidBody->GetLinearVelocity().y;
+
+	if(vX < 0)
+	{
+		b2Vec2 velocity;
+		velocity.Set(PLAYER_SPEED,vY);
+		getPhysicalProperties()->rigidBody->SetLinearVelocity(velocity);
+	}
+
+	--timer;
+
+	Game* game = Game::getInstance();
+	if(!dyingLastFrame && this->getIsDying())
+	{
+		health--;
+		
+		if(health < 1)
+		{
+			game->getGSM()->gameOver();
+		}
+
+		for (int i = 0; i < 10; i++)
+		{
+			if (i < health)
+			{
+				healthImages[i]->alpha = 255;
+			}
+			else
+			{
+				healthImages[i]->alpha = 0;
+			}
+		}
+
+		dyingLastFrame = true;
+	}
+	else if(!this->getIsDying())
+	{
+		dyingLastFrame = false;
+	}
+}

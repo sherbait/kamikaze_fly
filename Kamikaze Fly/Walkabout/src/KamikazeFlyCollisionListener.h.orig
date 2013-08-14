@@ -1,0 +1,21 @@
+#pragma once
+
+#include "Box2D\Box2D.h"
+#include "src\gsm\physics\Physics.h"
+#include "src\gsm\sprite\AnimatedSpriteType.h"
+
+class KamikazeFlyCollisionListener : public b2ContactListener
+{
+private:
+	Game* game;
+	AnimatedSpriteType* determineExplosionSize(float velocityX, float velocityY);
+	void setOffExplosion(Physics* gamePhysics, PhysicalProperties* objectPP);
+
+public:
+	KamikazeFlyCollisionListener(Game* theGame)
+	{
+		game = theGame;
+	}
+
+	virtual void BeginContact(b2Contact* contact) override;
+};

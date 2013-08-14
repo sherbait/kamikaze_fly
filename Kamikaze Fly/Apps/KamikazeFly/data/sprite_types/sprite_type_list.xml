@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type_list>
+  <sprite_type>bee</sprite_type>
+  <sprite_type>butterfly</sprite_type>
+  <sprite_type>fly_drone</sprite_type>
+  <sprite_type>square_block</sprite_type>
+  <sprite_type>explosion_1</sprite_type>
+  <sprite_type>explosion_2</sprite_type>
+  <sprite_type>mosquito</sprite_type>
+  <sprite_type>venus_fly_trap</sprite_type>
+  <sprite_type>massive_explosion</sprite_type>
+  <sprite_type>large_explosion</sprite_type>
+  <sprite_type>medium_block</sprite_type>
+  <sprite_type>long_block</sprite_type>
+  <sprite_type>orb</sprite_type>
+  <sprite_type>arrow</sprite_type>
+  <sprite_type>projectile</sprite_type>
+</sprite_type_list>

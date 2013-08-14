@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type>
+ <width>128</width>
+ <height>128</height>
+ <images_list>
+	<image_file id="1" file_name="explosion20.png"/>
+	<image_file id="2" file_name="explosion21.png"/>
+	<image_file id="3" file_name="explosion22.png"/>
+	<image_file id="4" file_name="explosion23.png"/>
+	<image_file id="5" file_name="explosion24.png"/>
+	<image_file id="6" file_name="explosion25.png"/>
+	<image_file id="7" file_name="explosion26.png"/>
+	<image_file id="8" file_name="explosion27.png"/>
+	<image_file id="9" file_name="explosion28.png"/>
+	<image_file id="10" file_name="explosion29.png"/>
+	<image_file id="11" file_name="explosion30.png"/>
+	<image_file id="12" file_name="explosion31.png"/>
+	<image_file id="13" file_name="explosion32.png"/>
+	<image_file id="14" file_name="explosion33.png"/>
+	<image_file id="15" file_name="explosion34.png"/>
+	<image_file id="16" file_name="explosion35.png"/>
+	<image_file id="17" file_name="explosion36.png"/>
+	<image_file id="18" file_name="explosion37.png"/>
+	<image_file id="19" file_name="explosion38.png"/>
+	<image_file id="20" file_name="explosion39.png"/>
+	<image_file id="21" file_name="explosion40.png"/>
+	<image_file id="22" file_name="explosion41.png"/>
+	<image_file id="23" file_name="explosion42.png"/>
+	<image_file id="24" file_name="explosion43.png"/>
+	<image_file id="25" file_name="explosion44.png"/>
+	<image_file id="26" file_name="explosion45.png"/>
+	<image_file id="27" file_name="explosion46.png"/>
+	<image_file id="28" file_name="explosion47.png"/>
+	<image_file id="29" file_name="explosion48.png"/>
+	<image_file id="30" file_name="explosion49.png"/>
+	<image_file id="31" file_name="explosion50.png"/>
+	<image_file id="32" file_name="explosion51.png"/>
+	<image_file id="33" file_name="explosion52.png"/>
+	<image_file id="34" file_name="explosion53.png"/>
+	<image_file id="35" file_name="explosion54.png"/>
+	<image_file id="36" file_name="explosion55.png"/>
+	<image_file id="37" file_name="explosion56.png"/>
+	<image_file id="38" file_name="explosion57.png"/>
+	<image_file id="39" file_name="explosion58.png"/>
+	<image_file id="40" file_name="explosion59.png"/>
+	<image_file id="41" file_name="explosion60.png"/>
+	<image_file id="42" file_name="explosion61.png"/>
+	<image_file id="43" file_name="explosion62.png"/>
+	<image_file id="44" file_name="explosion63.png"/>
+	<image_file id="45" file_name="explosion64.png"/>
+	<image_file id="46" file_name="explosion65.png"/>
+	<image_file id="47" file_name="explosion66.png"/>
+	<image_file id="48" file_name="explosion67.png"/>
+	<image_file id="49" file_name="explosion68.png"/>
+	<image_file id="50" file_name="explosion69.png"/>
+	<image_file id="51" file_name="explosion70.png"/>
+	<image_file id="52" file_name="explosion71.png"/>
+	<image_file id="53" file_name="explosion72.png"/>
+	<image_file id="54" file_name="explosion73.png"/>
+	<image_file id="55" file_name="explosion74.png"/>
+	<image_file id="56" file_name="explosion75.png"/>
+ </images_list>
+ <animations_list>
+  <animation_state>
+   <state>EXPLODE</state>
+   <animation_sequence>
+    <pose image_id="1" duration="1"/>
+	<pose image_id="2" duration="1"/>
+	<pose image_id="3" duration="1"/>
+	<pose image_id="4" duration="1"/>
+	<pose image_id="5" duration="1"/>
+	<pose image_id="6" duration="1"/>
+	<pose image_id="7" duration="1"/>
+	<pose image_id="8" duration="1"/>
+	<pose image_id="9" duration="1"/>
+	<pose image_id="10" duration="1"/>
+	<pose image_id="11" duration="1"/>
+	<pose image_id="12" duration="1"/>
+	<pose image_id="13" duration="1"/>
+	<pose image_id="14" duration="1"/>
+	<pose image_id="15" duration="1"/>
+	<pose image_id="16" duration="1"/>
+	<pose image_id="17" duration="1"/>
+	<pose image_id="18" duration="1"/>
+	<pose image_id="19" duration="1"/>
+	<pose image_id="20" duration="1"/>
+	<pose image_id="21" duration="1"/>
+	<pose image_id="22" duration="1"/>
+	<pose image_id="23" duration="1"/>
+	<pose image_id="24" duration="1"/>
+	<pose image_id="25" duration="1"/>
+	<pose image_id="26" duration="1"/>
+	<pose image_id="27" duration="1"/>
+	<pose image_id="28" duration="1"/>
+	<pose image_id="29" duration="1"/>
+	<pose image_id="30" duration="1"/>
+	<pose image_id="31" duration="1"/>
+	<pose image_id="32" duration="1"/>
+	<pose image_id="33" duration="1"/>
+	<pose image_id="34" duration="1"/>
+	<pose image_id="35" duration="1"/>
+	<pose image_id="36" duration="1"/>
+	<pose image_id="37" duration="1"/>
+	<pose image_id="38" duration="1"/>
+	<pose image_id="39" duration="1"/>
+	<pose image_id="40" duration="1"/>
+	<pose image_id="41" duration="1"/>
+	<pose image_id="42" duration="1"/>
+	<pose image_id="43" duration="1"/>
+	<pose image_id="44" duration="1"/>
+	<pose image_id="45" duration="1"/>
+	<pose image_id="46" duration="1"/>
+	<pose image_id="47" duration="1"/>
+	<pose image_id="48" duration="1"/>
+	<pose image_id="49" duration="1"/>
+	<pose image_id="50" duration="1"/>
+	<pose image_id="51" duration="1"/>
+	<pose image_id="52" duration="1"/>
+	<pose image_id="53" duration="1"/>
+	<pose image_id="54" duration="1"/>
+	<pose image_id="55" duration="1"/>
+	<pose image_id="56" duration="1"/>
+   </animation_sequence>
+  </animation_state>
+ </animations_list>  
+</sprite_type>

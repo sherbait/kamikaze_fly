@@ -1,0 +1,230 @@
+/*
+	Author: Dinia Gepte
+			Stony Brook University
+			Computer Science Department
+*/
+
+#include "stdafx.h"
+
+// KamikazeFlyGame includes
+#include "src\WalkaboutGame.h"
+
+// Game object includes
+#include "src\audio\AudioManager.h"
+#include "src\gsm\state\GameStateManager.h"
+#include "src\gsm\sprite\SpriteManager.h"
+#include "src\KamikazeFlyAudioHandler.h"
+
+
+/*
+	Called every frame. (.. will add description later)
+*/
+void KamikazeFlyAudioHandler::handleGameEvents(Game *game)
+{
+	//GameStateManager *gsm = game->getGSM();
+	//AudioManager *audio = game->getAudioManager();
+	//AnimatedSprite *player = gsm->getSpriteManager()->getPlayer();
+	//SpriteManager *spriteManager = gsm->getSpriteManager();
+
+	//// CHECK FOR GAME STATES
+	//currentState = gsm->getCurrentGameState();
+
+	//// Is the current game state different from the old state?
+	//// If so, the game has entered a new state.
+	//if (currentState != oldState)
+	//{	
+	//	/**** Play an appropriate background audio. ****/
+
+	//	// We only go to the splash screen once, so it's safe to assume that
+	//	// this is the first time we have to play the main song.
+	//	if (currentState == GS_SPLASH_SCREEN)
+	//	{
+	//		audio->playSound(audio->getSound(C_MAIN_AUDIO_PATH), audio->getChannel(CH_MAIN));
+	//	}
+	//	// Game level has started.
+	//	else if (currentState == GS_GAME_IN_PROGRESS)
+	//	{
+	//		if (audio->isChannelPlaying(CH_MAIN))
+	//		{
+	//			audio->stopChannel(CH_MAIN);	// Stop the music from the main menu from playing
+	//			
+	//			/**********************ADD LEVEL MUSIC HERE************************/
+	//			audio->playSound(audio->getSound(C_LEVEL_1_AUDIO_PATH), audio->getChannel(CH_INGAME));
+	//			audio->setChannelVolume(CH_INGAME, 0.2f);	// This audio is too loud so I'm toning it down
+	//		}	
+	//	}
+	//	// Player has gone back to main menu.
+	//	else if (currentState == GS_MAIN_MENU)
+	//	{
+	//		if (audio->isChannelPlaying(CH_INGAME))
+	//		{
+	//			audio->stopChannel(CH_INGAME);
+	//			audio->playSound(audio->getSound(C_MAIN_AUDIO_PATH), audio->getChannel(CH_MAIN));
+	//		}
+	//	}
+
+	//	// Update the oldState
+	//	oldState = currentState;
+	//}
+
+	///***** GAME WORLD SOUNDS: UNDER CONSTRUCTION :P *****/
+
+	//if (currentState == GS_GAME_IN_PROGRESS)
+	//{
+	//	/*	TODO: IF THE PLAYER HAS COLLIDED WITH SOMETHING, PAUSE OR STOP CHANNEL [CH_INGAME].
+	//		REMEMBER THAT PAUSING THE CHANNEL (toggleChannel) WILL STILL MAKE isChannelPlaying RETURN true.
+	//		DETERMINE THE COLLISION RADIUS (HOW LARGE WAS THE COLLISION?) AND PLAY AN
+	//		APPROPRIATE COLLISION SOUND ON CHANNEL [CH_BLAST].
+	//		AUDIO TO CHOOSE FROM: C_BLAST_LG_AUDIO_PATH, C_BLAST_MD_AUDIO_PATH, C_BLAST_SM_AUDIO_PATH
+
+	//		ONCE THE PLAYER RESPAWNS, MAKE SURE [CH_BLAST] IS NOT PLAYING AND THEN PLAY THE LEVEL AUDIO
+	//		AGAIN. IF YOU PAUSED THE CHANNEL USE toggleChannel, OTHERWISE playSound.
+	//		OBVIOUSLY, THE DIFFERENCE BETWEEN PAUSING THE CHANNEL AND STOPPING IT IS THAT WHEN THE PLAYER
+	//		RESPAWNS, SHOULD THE MUSIC CONTINUE OFF FROM WHEN THE PLAYER DIED OR SHOULD IT START OVER AGAIN?
+	//	*/
+
+	//	/*	TODO
+	//		CHANNEL: [CH_PLAYER]
+	//		PLAYER SOUND WILL BEGIN WHEN PLAYER SPAWNS. THERE ARE TWO OPTIONS:
+	//		1) C_FLY_SHORT_AUDIO_PATH - short burst sound whenever the player spawns; or
+	//		2) C_FLY_LONG_AUDIO_PATH - looping sound that will play throughout the game
+	//	*/
+	//	
+	//	/***** BOT SOUNDS *****/
+
+	//	// PLAYER PROPERTIES
+	//	float playerX = player->getPhysicalProperties()->getX();
+	//	float playerY = player->getPhysicalProperties()->getY();
+
+	//	// BOTS
+	//	list<Bot*>::iterator botIterator;
+	//	botIterator = spriteManager->getBotsIterator();
+	//	while (botIterator != spriteManager->getEndOfBotsIterator())
+	//	{			
+	//		Bot *bot = (*botIterator);
+	//		int botId = bot->getSpriteType()->getSpriteTypeID();
+
+<<<<<<< local
+			// 0 = bee, butterfly = 1, mosquito = 6 (this is terrible).
+			// These are for flying bots sounds by the way.
+			if (botId == 0 || botId == 1 || botId == 6)
+			{
+				float botX = bot->getPhysicalProperties()->getX();
+				float botY = bot->getPhysicalProperties()->getY();
+				//float botVx = bot->getPhysicalProperties()->getVelocityX();
+				//float botVy = bot->getPhysicalProperties()->getVelocityY();
+				//int spriteId = bot->getSpriteType()->getSpriteTypeID();
+				//audio->playSoundAtPosition(audio->getSound(getFilePath(spriteId)), audio->getChannel(CH_BOT), botX, botY, botVx, botVy);
+				//audio->update();
+				if (isWithinRange(playerX, playerY, botX, botY))
+				{
+					// Play the bot audio in channel [CH_BOT]. But first, check if it's already playing.
+					if (!isBotInCurrentlyPlaying(bot))
+					{
+						audio->playSound(audio->getSound(getFilePath(botId)), audio->getChannel(CH_BOT));
+=======
+	//		// I'm assuming getIsBot is the tag for an enemy bot.
+	//		// 0 = bee, butterfly = 1, mosquito = 6 (this is terrible).
+	//		// These are for flying bots sounds by the way.
+	//		if (botId == 0 || botId == 1 || botId == 6)
+	//		{
+	//			float botX = bot->getPhysicalProperties()->getX();
+	//			float botY = bot->getPhysicalProperties()->getY();
+	//			//float botVx = bot->getPhysicalProperties()->getVelocityX();
+	//			//float botVy = bot->getPhysicalProperties()->getVelocityY();
+	//			//int spriteId = bot->getSpriteType()->getSpriteTypeID();
+	//			//audio->playSoundAtPosition(audio->getSound(getFilePath(spriteId)), audio->getChannel(CH_BOT), botX, botY, botVx, botVy);
+	//			//audio->update();
+	//			if (isWithinRange(playerX, playerY, botX, botY))
+	//			{
+	//				// Play the bot audio in channel [CH_BOT]. But first, check if it's already playing.
+	//				if (!isBotInCurrentlyPlaying(bot))
+	//				{
+	//					audio->playSound(audio->getSound(getFilePath(botId)), audio->getChannel(CH_BOT));
+>>>>>>> other
+
+	//					// Add it to the currently playing audio
+	//					currentlyPlaying.push_back(bot);
+	//				}
+	//			}
+	//			else
+	//			{
+	//				if (isBotInCurrentlyPlaying(bot))
+	//					currentlyPlaying.remove(bot);	// This doesn't stop the audio if it's still playing though
+	//			}
+	//		}
+	//		botIterator++;
+	//	}
+	//}
+}
+
+void KamikazeFlyAudioHandler::handleButtonEvents(Game *game)
+{
+	AudioManager *audio = game->getAudioManager();
+	audio->playSound(audio->getSound(C_BUTTON_CLICK_AUDIO_PATH), audio->getChannel(CH_CLICK));
+}
+
+/*
+	This returns the audio filepath of the sound associated with a sprite from sprite_type_list.xml.
+	This should be update along with the xml file!
+*/
+const char* KamikazeFlyAudioHandler::getFilePath(int id)
+{
+	switch (id)
+	{
+	case 0:	// bee
+		return C_BEE_AUDIO_PATH;
+		break;
+	case 1: // butterfly
+		return C_BUTTERFLY_AUDIO_PATH;
+		break;
+	case 2: // fly_drone
+		return C_FLY_SHORT_AUDIO_PATH;	// for purposes, I'm using the short audio
+		break;
+	case 3: // square block :o
+		return "";
+		break;
+	case 4: // explosion1
+		return C_BLAST_SM_AUDIO_PATH;	// not sure how big of an explosion this is
+		break;
+	case 5: // explosion2
+		return C_BLAST_SM_AUDIO_PATH;	// this too
+		break;
+	case 6: // mosquito
+		return C_MOSQUITO_AUDIO_PATH;
+		break;
+	case 7: // venus_fly_trap
+		return C_VENUS_AUDIO_PATH;
+		break;
+	case 8: // massive_explosion
+		return C_BLAST_LG_AUDIO_PATH;
+		break;
+	case 9: // large_explosion
+		return C_BLAST_MD_AUDIO_PATH;
+		break;
+	default:
+		return "";
+	}
+}
+
+/*
+*/
+bool KamikazeFlyAudioHandler::isWithinRange(float x1, float y1, float x2, float y2)
+{
+	// Calculate the distance between the two
+	float distance = sqrtf(pow(x1-x2, 2) + pow(y1-y2, 2));
+
+	return (distance <= PLAYER_TO_BOT_RANGE);
+}
+
+bool KamikazeFlyAudioHandler::isBotInCurrentlyPlaying(Bot *bot)
+{
+	list<Bot*>::iterator it;
+	for (it = currentlyPlaying.begin(); it != currentlyPlaying.end(); it++)
+	{
+		Bot *b = *it;
+		if (b == bot)
+			return true;
+	}
+	return false;
+}
